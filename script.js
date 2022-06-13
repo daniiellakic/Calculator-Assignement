@@ -24,7 +24,7 @@ const multiply = function(a, b) {
 }
 
 const divide = function(a, b) {
-    return b !== 0 ? a / b : "Yikes";
+    return b !== 0 ? a / b : "Error";
 }
 
 const operate = function(a, func, b) {
@@ -57,6 +57,8 @@ const addNumber = function() {
     }
 };
 
+
+// OPERATE FUNCTION THAT TAKES AN OPERATOR AND NUMBERS NAD CALLS FUNCTION
 const returnOperation = function(sign) {
     console.log(sign === "+")
 
@@ -86,7 +88,7 @@ const handleCalc = function() {
 }
 
 const handleFuncs = function() {
-    console.log("funcs")
+    console.log("funcs");
 
     switch (this.textContent) {
         case "<":
